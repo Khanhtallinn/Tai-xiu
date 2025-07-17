@@ -13,11 +13,14 @@ function App() {
   Number(b)
   Number(c)
   var kq: string = ""
-  if (a + b + c > 10 && a + b + c > 0) {
+  if (a + b + c > 10) {
     kq = "Tài"
   }
-  else if (a + b + c < 10 && a + b + c > 0) {
+  else if (a + b + c < 10) {
     kq = "Xỉu"
+  }
+  else if(a+b+c == 0){
+    kq=""
   }
   return (
     <>
