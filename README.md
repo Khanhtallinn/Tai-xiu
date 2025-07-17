@@ -67,3 +67,11 @@ export default tseslint.config([
   },
 ])
 ```
+
+##How to run
+```
+$ git clone https://github.com/Khanhtallinn/Tai-xiu.git
+$ cd Tai-xiu
+$ pnpm install
+$ pnpm run dev
+```
